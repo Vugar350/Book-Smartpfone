@@ -1,4 +1,4 @@
-package ru.Netology;
+package ru.netology.domain;
 
 public class Smartphone extends Product {
     private String maker;
@@ -12,6 +12,6 @@ public class Smartphone extends Product {
         return maker;
     }
 
-    }
+}
 
 

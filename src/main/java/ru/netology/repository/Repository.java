@@ -1,4 +1,6 @@
-package ru.Netology;
+package ru.netology.repository;
+
+import ru.netology.domain.Product;
 
 public class Repository {
 
@@ -14,6 +16,7 @@ public class Repository {
         tmp[lastIndex] = prod;
         product = tmp;
     }
+
 
     public void deleteById(int id) {
         int length = product.length - 1;
@@ -32,4 +35,6 @@ public class Repository {
     public Product[] getAll() {
         return product;
     }
+
+
 }

@@ -1,4 +1,4 @@
-package ru.Netology;
+package ru.netology.domain;
 
 public class Product {
     private int id;
